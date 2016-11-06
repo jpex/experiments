@@ -1,0 +1,14 @@
+# Site settings
+title:       Experiments
+description: "Something, experimental."
+baseurl:     "/experiments"
+gems:
+  - jekyll-sitemap
+
+defaults:
+  -
+    values:
+      layout: "default"
+
+future:    false
+permalink: /:title/
